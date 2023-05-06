@@ -6,6 +6,7 @@ import classNames from "classnames";
 import { ColorContext } from "utils/contexts/color";
 
 const colors = [
+  "adeliom",
   "slate",
   "gray",
   "zinc",

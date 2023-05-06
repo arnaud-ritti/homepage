@@ -2,11 +2,32 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/en/configs/widgets
 
-- resources:
-    cpu: true
-    memory: true
-    disk: /
+- logo:
+    icon: https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/331528559_934321074252927_5032291262034520147_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=4QEqnubhh4kAX9h7WXN&_nc_ht=scontent-cdg4-3.xx&oh=00_AfB4TN2OsJJxzehcO0cLxMGTes-DZmwgKgrJHAPr31lRuQ&oe=645C1D48
 
 - search:
-    provider: duckduckgo
+    provider: google
     target: _blank
+
+- openmeteo:
+    label: Strasbourg
+    latitude: 48.5912409
+    longitude: 7.7414466
+    timezone: Europe/Paris
+    units: metric
+    cache: 5
+
+- openmeteo:
+    label: Marseille
+    latitude: 43.3073006
+    longitude: 5.3665578
+    timezone: Europe/Paris
+    units: metric
+    cache: 5
+
+- datetime:
+    text_size: 4xl
+    locale: fr
+    format:
+        timeStyle: short
+        hourCycle: h23

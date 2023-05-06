@@ -1,6 +1,14 @@
 ---
 # For configuration options and examples, please see:
 # https://gethomepage.dev/en/configs/settings
+title: Astro - Adeliom
+color: adeliom
+fiveColumns: true
+headerStyle: boxed
+language: fr
+target: _blank
+hideVersion: true
+hideErrors: true
 
 providers:
   openweathermap: openweathermapapikey

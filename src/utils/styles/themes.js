@@ -5,6 +5,12 @@ const themes = {
     iconEnd: "#282828",
     dark: "#ffffff",
   },
+  adeliom: {
+    light: "#ffffff",
+    iconStart: "#ffffff",
+    iconEnd: "#0a0a0a",
+    dark: "#0a0a0a",
+  },
   slate: {
     light: "#f8fafc",
     iconStart: "#94a3b8",
